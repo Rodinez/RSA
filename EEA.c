@@ -1,3 +1,6 @@
+// Gabriel Santos de Andrade   RA 815407
+// Leonardo Prado Silva        RA 813169
+
 #include <stdio.h>
 
 void eea(long long a, long long b, long long *mdc, long long *x, long long *y) {
