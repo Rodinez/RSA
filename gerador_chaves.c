@@ -96,14 +96,14 @@ int main() {
     //Escolha do e 655537, o mais comum
     mpz_set_ui(e, 65537);
     
-    eea(e, phi, gcd_test, d, y_temp);
+    eea(phi, e, gcd_test, d, y_temp);
     
 
     mpz_mod(d, d, phi);
     if (mpz_cmp_ui(d, 0) < 0) {
         mpz_add(d, d, phi);
     }
-    
+
     printf("\nCHAVES GERADAS\n\n");
     
     printf("Base:\n%d\n\n", base);
